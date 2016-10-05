@@ -1,0 +1,449 @@
+# Translation of the WordPress theme Opti 1.0.01 by Pro Theme Design.
+# Copyright (C) 2013 Pro Theme Design
+# This file is distributed under the same license as the Opti package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Opti 1.0.01\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/opti\n"
+"POT-Creation-Date: 2013-04-01 13:16-0400\n"
+"PO-Revision-Date: 2013-10-08 18:13+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: 404.php:13
+msgid "Error 404"
+msgstr "Seite nicht gefunden - Fehler 404"
+
+#: 404.php:15
+msgid "Oops!"
+msgstr "Entschuldigung!"
+
+#: 404.php:16
+msgid ""
+"Sorry, but the page you are looking for has not been found. Try checking the "
+"URL for errors, then hit the refresh button in your browser."
+msgstr ""
+"Die gewünschte Seite wurde leider nicht gefunden.<div> <ul> "
+"<li><b>Fehlerhafter Link?</b> Wenn Sie auf einen Link in unserem aktuellen "
+"Angebot geklickt haben und trotzdem hier gelandet sind, sprechen Sie uns "
+"bitte an: Redaktion (at) versicherungsmonitor.de.</li><li><b>Vertippt?</b> "
+"Bitte Überprüfen sie die Adresse und klicken Sie auf \"neu laden\" im "
+"Browserfenster.</li></ul></div>"
+
+#: archive.php:19
+msgid "Subscribe to this category"
+msgstr "Diese Kategorie abonnieren"
+
+#: archive.php:23
+#, php-format
+msgid "Tag Archive for &#8216;%s&#8217;"
+msgstr "Archiv &#8216;%s&#8217;"
+
+#: archive.php:26 archive.php:29 archive.php:32
+#, php-format
+msgid "Archive for %s"
+msgstr "Archiv %s"
+
+#: archive.php:35
+msgid "Blog Archives"
+msgstr "Artikelarchiv"
+
+#: archive.php:58
+msgid "Not Found"
+msgstr "Nicht gefunden"
+
+#: author.php:13
+msgid "Author Archives"
+msgstr "Autorenarchiv"
+
+#: comments.php:10
+msgid "Please do not load this page directly. Thanks!"
+msgstr "Bitte diese Seite nicht direkt aufrufen. Danke!"
+
+#: comments.php:62
+msgid "Discuss with us"
+msgstr "Diskutieren Sie mit"
+
+#: comments.php 64
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+"Sie müssen <a href=\"%s\">eingeloggt sein</a>, um diesen Beitrag "
+"kommentieren zu können."
+
+#: comments.php:21
+#, php-format
+msgid "1 reply"
+msgid_plural "%1$s replies"
+msgstr[0] "1 Antwort"
+msgstr[1] "%1$s Antworten"
+
+#: comments.php:23
+msgid "Leave a comment"
+msgstr "Beitrag kommentieren"
+
+#: comments.php:30
+msgid "&lsaquo; Older Comments"
+msgstr "&lsaquo; Ältere Kommentare"
+
+#: comments.php:33
+msgid "Newer Comments &rsaquo;"
+msgstr "Neuere Kommentare &rsaquo;"
+
+#: comments.php:42
+msgid "Trackbacks"
+msgstr "Trackbacks"
+
+#: content-archive.php:10 content-home-loop.php:9 content-search.php:10
+#: index.php:44 index.php:51 index.php:111
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink zu %s"
+
+#: content-attachment.php:15
+#, php-format
+msgid ""
+"<p class=\"postmetadata\">Published <span class=\"entry-date\"><time class="
+"\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s"
+"\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s"
+"\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a></p>"
+msgstr ""
+"<p class=\"postmetadata\">Veröffentlicht <span class=\"entry-date\"><time "
+"class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> am <a href="
+"\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href="
+"\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a></p>"
+
+#: content-attachment.php:37
+msgid "Back"
+msgstr "Zurück"
+
+#: content-single.php:29
+msgid "Categories: "
+msgstr "Kategorien: "
+
+#: content-single.php:34
+msgid "Tags: "
+msgstr "Schlagworte: "
+
+#: content-single.php:59
+msgid "Related Articles"
+msgstr "Ähnliche Artikel"
+
+#: footer.php:39
+msgid "A Semantic Personal Publishing Platform"
+msgstr ""
+
+#: footer.php:39
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:41
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:14
+msgid "Opti Options"
+msgstr ""
+
+#: functions.php:45 functions.php:72
+msgid "Homepage"
+msgstr "Startseite"
+
+#: functions.php:50
+msgid "Display Homepage Categories"
+msgstr ""
+
+#: functions.php:54
+msgid "Hide the homepage categories listing"
+msgstr ""
+
+#: functions.php:57
+msgid "Homepage Categories"
+msgstr ""
+
+#: functions.php:64
+msgid ""
+"Categories to display on the left hand side of the homepage. Deselect all of "
+"them to automatically select posts from the categories with the most content."
+msgstr ""
+
+#: functions.php:67
+msgid "Display Header Image on"
+msgstr ""
+
+#: functions.php:73
+msgid "All Pages"
+msgstr ""
+
+#: functions.php:77
+msgid "Note: You need to upload and select an image for this to take effect."
+msgstr ""
+
+#: functions.php:80
+msgid "Featured Posts"
+msgstr ""
+
+#: functions.php:87
+msgid ""
+"Number of featured posts to display on the homepage in the featured "
+"categories section."
+msgstr ""
+
+#: functions.php:90
+msgid "Display Related Posts"
+msgstr ""
+
+#: functions.php:94
+msgid "Would you like to display the related posts on single post pages?"
+msgstr ""
+
+#: functions.php:172
+msgid "Content Background Color"
+msgstr ""
+
+#: functions.php:173
+msgid "Content Link Color"
+msgstr ""
+
+#: functions.php:195
+msgid "Header Position:"
+msgstr ""
+
+#: functions.php:199
+msgid "Below Navigation (default)"
+msgstr ""
+
+#: functions.php:200
+msgid "In Header"
+msgstr ""
+
+#: functions.php:342
+msgid "Main Navigation"
+msgstr ""
+
+#: functions.php:343
+msgid "Sub Navigation"
+msgstr ""
+
+#: functions.php:349
+msgid "Sidebar Widgets"
+msgstr ""
+
+#: functions.php:361
+msgid "Left Footer Widgets"
+msgstr ""
+
+#: functions.php:372
+msgid "Left Middle Footer Widgets"
+msgstr ""
+
+#: functions.php:383
+msgid "Right Middle Footer Widgets"
+msgstr ""
+
+#: functions.php:394
+msgid "Right Footer Widgets"
+msgstr ""
+
+#: functions.php:455
+msgid "Continue reading&rarr;"
+msgstr "Continue reading&rarr;"
+
+#: functions.php:509 functions.php:1027 header.php:27
+msgid "Home"
+msgstr "Startseite"
+
+#: functions.php:598
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: functions.php:601
+#, php-format
+msgid "%1$s &bull; %2$s"
+msgstr ""
+
+#: functions.php:603 includes/edit.php:8
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: functions.php:610
+msgid "Your comment is awaiting moderation."
+msgstr "Ihr Kommentar ist noch nicht freigeschaltet"
+
+#: functions.php:621
+msgid "Reply &darr;"
+msgstr "Antworten &darr;"
+
+#: functions.php:622
+msgid "Log in to reply"
+msgstr "Sie müssen sich  anmelden, um antworten zu können"
+
+#: functions.php:738
+msgid "Newest"
+msgstr "Neueste"
+
+#: functions.php:757
+msgid "Oldest"
+msgstr "Älteste"
+
+#: functions.php:1002
+#, php-format
+msgid "... <a href=\"%s\" class=\"read-more\">Read More &rsaquo;</a>"
+msgstr "... <a href=\"%s\" class=\"read-more\">Lesen Sie mehr &rsaquo;</a>"
+
+#: functions.php:74
+#, php-format
+msgid "... <a href=\"%s\" class=\"read-more\">Read More &rsaquo;</a></p>"
+msgstr "... <a href=\"%s\" class=\"read-more\">Lesen Sie mehr &rsaquo;</a></p>"
+
+#: functions.php:1126
+msgid "Search : "
+msgstr "Suche:"
+
+#: functions.php:1128
+msgid "404 Page not found"
+msgstr "404 Seite wurde nicht gefunden"
+
+#: functions.php:1143 functions.php:1147
+#, php-format
+msgid "Page %d"
+msgstr "Seite %d"
+
+#: functions.php:1244
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr ""
+
+#: includes/administration.php:15 includes/administration.php:53
+msgid "Theme Options"
+msgstr ""
+
+#: includes/administration.php:319
+#, php-format
+msgid "%s (Google Font)"
+msgstr ""
+
+#: includes/administration.php:350
+msgid "Font Face"
+msgstr ""
+
+#: includes/administration.php:354
+msgid "Font Size"
+msgstr ""
+
+#: includes/administration.php:461
+msgid "Check All"
+msgstr ""
+
+#: includes/administration.php:462
+msgid "Deselect All"
+msgstr ""
+
+#: includes/administration.php:496
+msgid "default"
+msgstr ""
+
+#: includes/pagination.php:10
+msgid "&lsaquo; Older Entries"
+msgstr "&lsaquo; Ältere Einträge"
+
+#: includes/pagination.php:13
+msgid "Newer Entries &rsaquo;"
+msgstr "Neuere Einträge &rsaquo;"
+
+#: includes/postmetadata.php:10
+#, php-format
+msgid ""
+"<span class=\"byline\">By <span class=\"author vcard\"><a class=\"url fn n\" "
+"href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span> on <a "
+"href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" "
+"datetime=\"%3$s\" pubdate>%4$s</time></a>"
+msgstr ""
+"<span class=\"byline\">Von <span class=\"author vcard\"><a class=\"url fn n"
+"\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span> am <a "
+"href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" "
+"datetime=\"%3$s\" pubdate>%4$s</time></a>"
+
+#: includes/postmetadata.php:16
+#, php-format
+msgid "View all posts by %s"
+msgstr "Alle Artikel von %s lesen"
+
+#: index.php:23
+msgid "Recent Posts"
+msgstr "Neueste Artikel"
+
+#: index.php:64
+#, php-format
+msgid "Recent Posts - page %d"
+msgstr "Neueste Artikel - Seite %d"
+
+#: index.php:91
+msgid "Featured Categories"
+msgstr "Kategorien"
+
+#: searchform.php:9
+msgid "Search..."
+msgstr "Suche…"
+
+#: search.php:13
+msgid "Search results for"
+msgstr "Suchergebnisse für "
+
+#: includes/postmeta.php:17
+msgid "By"
+msgstr "Von"
+
+#: includes/postmeta.php:17
+msgid "at"
+msgstr "am"
+
+#: print-posts.php:50
+msgid "Copyright © 2013 Versicherungsmonitor. All rights reserved."
+msgstr "Copyright © 2013 Versicherungsmonitor. All rights reserved."
+
+#: search.php:25
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr "Für diesen Suchbegriff haben wir leider keine Ergebnisse gefunden. "
+
+#. Theme Name of the plugin/theme
+msgid "Opti"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://www.prothemedesign.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"An elegant magazine theme for WordPress, with a responsive design, and "
+"support for widgets, post thumbnails, custom headers and custom backgrounds."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Pro Theme Design"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://prothemedesign.com"
+msgstr ""
+
+#. Tags of the plugin/theme
+msgid ""
+"black, blue, two-columns, right-sidebar, responsive-width, custom-"
+"background, custom-colors, custom-header, custom-menu, featured-images, "
+"flexible-header, full-width-template, infinite-scroll, theme-options, "
+"translation-ready, blog, business, magazine, news, professional, clean, "
+"conservative, contemporary, dark, elegant, modern, sophisticated"
+msgstr ""

@@ -1,0 +1,459 @@
+/*
+Theme Name: Opti - Versicherungsmonitor.de
+Author: brainbits GmbH
+Author URI: http://www.brainbits.net/
+Version: 1.0
+Template: opti
+*/
+
+/* Stylesheet is included in header.php */
+
+.wp-caption {
+    font-size: 12px;
+}
+
+.wp-caption-text {
+    text-align: left;
+}
+
+.wp-copy-caption,
+#recent-excerpts .wp-copy-caption {
+	background: #EFEFEF;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	float: left;
+	margin: 15px 15px 0 4px;
+	padding: 2px;
+}
+
+.thumb-wrap .wp-copy-caption {
+    margin: 0 15px 15px 4px;
+}
+
+
+.wp-copy-caption:hover,
+#recent-excerpts .wp-copy-caption:hover {
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.75);
+}
+
+.wp-copy-caption .wp-post-image,
+#recent-excerpts .wp-copy-caption .wp-post-image {
+	box-shadow: none;
+	border: 0;
+	border-bottom: 0;
+	display: block;
+	float: none;
+	margin: 0 auto;
+}
+
+.wp-copy-caption .copyright {
+	clear: both;
+	color: #666;
+    margin: 2px 3px;
+    font-size: 0.65em;
+    font-style: italic;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.search .wp-copy-caption .copyright {
+    display: inline;
+}
+
+.copyright-archive {
+	max-width: 105px;
+}
+
+/* Homepage */
+#lead-story .wp-copy-caption {
+	box-shadow: none;
+	margin-top: 0;
+	margin-left: 0;
+	padding: 0;
+}
+
+#lead-story .wp-copy-caption.full-width {
+	float: none;
+}
+
+#lead-story .wp-copy-caption .wp-post-image {
+	margin-bottom: 5px;
+}
+
+#lead-story .wp-copy-caption .copyright {
+	color: #333;
+}
+
+
+#branding {
+    padding: 0;
+}
+
+#logo {
+    background: #fff url(images/banner.jpg) no-repeat left center;
+    height: 166px;
+    margin: 0;
+    padding: 0;
+}
+#logo h1 {
+    height: 166px;
+}
+#logo a {
+    display: block;
+    height: 166px;
+    text-indent: -9999px;
+}
+
+.ngg-galleryoverview {
+    float: left;
+    margin-right: 15px;
+    width: auto;
+}
+
+.ngg-gallery-thumbnail-box {
+    display: none;
+}
+.ngg-gallery-thumbnail-box:first-child {
+    display: block;
+}
+.ngg-gallery-thumbnail-box:first-child img {
+    margin-top: 0;
+}
+
+
+#lead-story a#lead-image {
+    width: auto;
+}
+
+#lead-story a#lead-image.full-width {
+    display: block;
+    float: none;
+    margin: 0 0 1em 0;
+}
+
+#lead-story .wp-copy-caption a#lead-image.full-width {
+	margin-bottom: 0;
+}
+
+#lead-story .wp-copy-caption.full-width .copyright {
+	margin-bottom: 1em;
+}
+
+#lead-story a#lead-image.full-width img {
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -wbkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+}
+
+h1.pagetitle {
+    font-size: 1.75em;
+}
+
+/* Resetting Clearfix for older Browsers */
+.row .eightcol,
+.entry {
+	overflow: visible;
+}
+
+.entry h2 {
+    font-size: 1.5em;
+}
+
+.entry h5 {
+    font-size: 1.2em;
+}
+
+.entry h6 {
+    font-size: 1em;
+}
+
+.wp-caption .wp-caption-text {
+    font-style: normal;
+    margin: 5px 0 0;
+    padding: 5px 0;
+}
+
+.wp-caption .copyright {
+	clear: both;
+    color: #666;
+    margin: 0;
+    font-size: 0.8em;
+    padding: 0 0 5px;
+    text-align: left;
+}
+
+.copyright a,
+.copyright a:visited {
+    color: #666;
+}
+
+.post a.read-more {
+    white-space: nowrap;
+}
+
+@media handheld, only screen and (max-width: 1023px) {
+    #logo {
+        background-image: url(images/banner_mobile.jpg);
+        background-position: center;
+        background-size: 90% auto;
+        height: 110px;
+        margin: 10px 0;
+    }
+    #masthead form.searchform {
+        float: none;
+        margin: 0 0 10px 0;
+    }
+}
+
+@media handheld, only screen and (max-width: 480px) {
+    #logo {
+        height: 100px;
+    }
+}
+
+.wp-caption.alignleft {
+    margin: 7px 20px 1em 0px !important;
+}
+
+.nav ul {
+    width: 230px !important;
+}
+
+.nav ul li {
+    width: 230px !important;
+}
+
+#nav-primary a {
+    padding: 11px 15px;
+}
+
+/* erster Absatz fett */
+
+article section.entry p:first-child {
+    font-weight: bold;
+}
+
+
+/* Layering */
+
+.layering-outer {
+    width: 33%;
+    min-width: 150px;
+}
+
+.layering-right {
+    margin-left: 10px;
+}
+
+.layering-left {
+    margin-right: 10px;
+}
+
+
+.layering {
+    background-color: #EFEFEF;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin-top: -0.2em;
+    margin-bottom: -0.2em;
+    color: #7b7b7b;
+}
+
+div.layering ul {
+    list-style-type: square;
+    list-style-position: inside;
+    padding: 0px;
+}
+
+div.layering ul li {
+    margin-left: 1.2em;
+    margin-bottom: 0;
+}
+span.postmetadata {
+    font-size:.75em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+span.postmetadata.print {
+    float: right;
+}
+
+form input.disabled {
+	background: #E9E9E9;
+	color: #666;
+}
+
+/* search */
+.search article {
+	float: none;
+	width: 100%;
+}
+.search article section.entry p:first-child {
+	font-weight: normal;
+}
+
+.search .postmetadata {
+    margin-bottom: 0;
+}
+
+.textwidget {
+	margin: 0;
+}
+
+.widget_text .widget-wrap {
+	padding-bottom: 0;
+}
+
+.widget_text .widget-wrap img {
+	display: block;
+}
+
+.widget.adsanity-single {
+	margin-bottom: 15px;
+}
+
+.widget.blank {
+	background: none;
+	padding: 0;
+}
+
+.widget.footer-no-border .widgettitle {
+	border-bottom: 0;
+	margin-bottom: 9px;
+}
+
+.widget.blank .widget-wrap {
+	border: 0;
+}
+
+.widget.blank .widget-wrap .full-width {
+	height: auto;
+	width: 100%;
+}
+
+.widget.adsanity-single .widget-wrap,
+.widget.adsanity-random .widget-wrap {
+	padding-bottom: 0;
+}
+
+.widget.adsanity-single img,
+.widget.adsanity-random img {
+	border: 0;
+	margin-bottom: 0;
+}
+
+/* Twitter Widget */
+
+.twitter-widget .textwidget {
+    line-height: 0;
+}
+
+#sidebar-bookmarks {
+
+}
+
+#sidebar-bookmarks h3 {
+	font-size: 1em;
+	border-bottom: 3px solid #333;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+
+#sidebar-bookmarks a {
+	color: #111;
+}
+
+#sidebar-bookmarks a:hover {
+	text-decoration: underline;
+}
+
+
+/* 404 */
+
+#oops {
+	opacity: 0.2;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)"; // first!
+	filter: alpha(opacity=20);					// second!
+}
+
+/* Newsletter Archive (.page-template-page-newsletter-archive-php) */
+.page-template-page-newsletter-archive-php .masonry article {
+    border-bottom: 1px solid #d7d7d7;
+    padding: 8px 0;
+    margin: 0 1.3% 18px 1.3%;
+    overflow: hidden;
+    float: left;
+    width: 47%;
+}
+
+/* Newsletter Archive Single Post (.single-newsletter_archive) */
+.single-newsletter_archive .newsletter_archive {  }
+.single-newsletter_archive .newsletter_archive img {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+}
+
+.single-newsletter_archive .newsletter_archive .entry > p {
+    display: none;
+}
+
+.single-newsletter_archive .newsletter_archive table {
+    margin: 0;
+}
+
+.single-newsletter_archive .newsletter_archive table img {
+    margin: 0;
+}
+
+.single-newsletter_archive .newsletter_archive .entry > table {
+    margin: 20px 0;
+}
+
+.single-newsletter_archive .newsletter_archive .entry > table td {
+    border-bottom: 0;
+    padding: 0;
+}
+
+.single-newsletter_archive .newsletter_archive table tr,
+.single-newsletter_archive .newsletter_archive table td[bgcolor="#dedfe6"] {
+    background: transparent !important;
+    padding: 0 !important;
+}
+
+.single-newsletter_archive .newsletter_archive .entry > table p {
+    line-height: 1.4;
+    font-family: Arial, sans-serif;
+    font-size: 12px !important;
+}
+
+/* Short News */
+
+.short-posts h3 {
+    font-size: 1em;
+    border-bottom: 3px solid #333;
+    padding-bottom: 5px;
+}
+
+.short-posts ul {
+    margin: 15px 0 20px;
+}
+
+.short-posts li {
+    display: inline;
+    line-height: 155%
+}
+
+.short-posts li:before {
+    content: '+++';
+    letter-spacing: 3px;
+}
+
+.short-posts li:first-child:before {
+    content: '';
+}
